@@ -1,0 +1,44 @@
+body {
+    background: url(https://i.ytimg.com/vi/PenI9DE1dx4/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content{
+    height: 330px;
+    width: 330px;
+    background-color: bisque;
+    margin: auto;
+    position: relative;
+}
+
+.content div{
+
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+    line-height: 90px;
+    width: 100px;
+    height: 100px;
+    background-color: #0F8AE7;
+    position: absolute;
+}
+
+.tool_bar{
+    text-align: center;
+   
+}
+
+.hide{
+    display: none !important;
+}
+
+.tile_0{top: 5px; left:5px;}
+.tile_1{top: 5px; left:115px;}
+.tile_2{top: 5px; left:225px;}
+.tile_3{top: 115px; left:225px;}
+.tile_4{top: 225px; left:225px;}
+.tile_5{top: 225px; left:115px;}
+.tile_6{top: 225px; left:5px;}
+.tile_7{top: 115px; left:5px;}
