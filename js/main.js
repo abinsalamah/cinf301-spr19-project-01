@@ -113,6 +113,7 @@ $(document).ready(function ()
             is_moving = 0;
             clearInterval(interval);
             $("#make_shuttle").removeAttr("disabled");
+            $("#working").addClass("hide");
         }
     }
 
