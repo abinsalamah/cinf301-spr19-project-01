@@ -112,7 +112,7 @@ $(document).ready(function ()
         {
             is_moving = 0;
             clearInterval(interval);
-            $("#make_shuttle").removeAttr("disabled");
+            $("#make_shuttle").css("display", "");
             $("#working").addClass("hide");
         }
     }
@@ -121,7 +121,8 @@ $(document).ready(function ()
     {
         key = 0;
         is_moving = 1;
-        $(this).attr("disabled", "disabled");
+        $(this).css("display", "none");
+        $("#working").removeClass("hide");
         interval = setInterval(shuttle, 40);
     });
 
